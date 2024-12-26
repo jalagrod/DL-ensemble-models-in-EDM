@@ -1,14 +1,12 @@
 # Deep Learning-Based Feature Selection for Educational Data Mining
 
-This repository contains the implementation of a **Deep Learning (DL)-based feature selection method** aimed at improving the semi-supervised feature selection approach presented by Yu et al. (2024). This enhanced methodology is designed to analyze and identify the most critical factors influencing student performance in educational datasets.
+This repository contains the implementation of a **Deep Learning framwork** aimed at improving the semi-supervised feature selection approach presented by Yu et al. (2024). This enhanced methodology is designed to analyze and identify the most critical factors influencing student performance in educational datasets.
 
 ## Features
 
 - **Deep Learning for Feature Selection**: Integrates DL techniques to refine the feature selection process.
 - **Enhanced Semi-Supervised Learning**: Improves upon Yu et al.'s semi-supervised feature selection framework.
-- **Classifier Compatibility**: Supports multiple classifiers (KNN, Decision Tree, Random Forest, SVM).
-- **Extensive Evaluation Metrics**: Evaluates performance using accuracy, F1 score, precision, and recall.
-- **Convergence Analysis**: Includes detailed convergence studies and parameter sensitivity analysis.
+- **Extensive Evaluation Metrics**: Evaluates performance using accuracy, F1 score, precision, recall and ROC AUC.
 
 ## Dataset
 
@@ -22,7 +20,7 @@ The project uses the [xAPI Educational Dataset](https://www.kaggle.com/datasets/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_repository_name.git
+   git clone https://github.com/jalagrod/DL-ensemble-models-in-EDM.git
    ```
 2. Install the required dependencies:
    ```bash
