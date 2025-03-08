@@ -1,4 +1,4 @@
-# Deep Learning vs. Semi-Supervised Approaches: A Benchmark Study on Educational Data Mining for Student Performance Prediction
+# Comparative Analysis of Deep Learning and Semi-Supervised Learning with AutoML for Student Performance Prediction
 
 This repository contains the implementation of a **Deep Learning framwork** aimed at improving the semi-supervised feature selection approach presented by Yu et al. (2024). This enhanced methodology is designed to analyze and identify the most critical factors influencing student performance in educational datasets.
 
