@@ -30,15 +30,14 @@ The project uses the [xAPI Educational Dataset](https://www.kaggle.com/datasets/
 
 ## Usage
 
-1. **Run the Notebook**: Open and execute `DL.ipynb` in Jupyter Notebook.
+1. **Run the Notebook**: Open and execute `External CV.ipynb` or `CV Using Autogluon.ipynb` in Jupyter Notebook.
 2. **Deep Learning Model**: Utilize the provided DL-based feature selection model to rank feature importance.
 3. **Classifier Evaluation**: Use the selected features to train classifiers and assess their performance.
 
 ## Key Files
 
-- **`DL.ipynb`**: Notebook implementing the DL-based feature selection and evaluation.
+- **`External CV.ipynb`** and `CV Using Autogluon.ipynb`: Notebooks implementing the DL-based feature selection and evaluation.
 - **`dataset_xapi.csv`**: Preprocessed dataset for feature selection and classification tasks.
-- **`result.csv`**: Results of feature importance ranking and classifier evaluation.
 
 ## Methodology
 
@@ -64,7 +63,7 @@ This implementation introduces a DL-based feature selection method that enhances
 ## Improvements Over Yu et al. (2024)
 
 - **Predictive Capability**: The DL-based approach introduces predictive modeling, which was missing in the original semi-supervised feature selection framework.
-- **Feature Interpretation**: Enhances interpretability and usability by learning explicit feature weights through the ANN.
+- **Feature Interpretation**: Enhances interpretability and usability by learning explicit feature weights through the DNN.
 - **Performance Gains**: Achieve improvements in classification accuracy.
 
 ## Future Work
